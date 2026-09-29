@@ -1,16 +1,20 @@
 package CodeForces;
 
-//https://codeforces.com/contest/4/problem/A
-// 
+// problem : 4A - Watermelon
+// https://codeforces.com/contest/4/problem/A
+// Difficulty : 800
+
+// idea : check whether the watermelon weight can be divided into two positive even parts
+// Time Complexity : O(1)   , Space Complexity : O(1)
+
 import java.util.Scanner;
 public class A_Watermelon {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Weight : ");
         int w = sc.nextInt();
 
-        // divide into two parts and those two parts are must be an even value
+        // w can be divided into two positive even parts
         if(w > 2 && w%2 == 0){
             System.out.println("YES");
         }else{
