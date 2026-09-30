@@ -1,6 +1,11 @@
 package CodeForces;
 
-//
+// problem : 71A
+// https://codeforces.com/contest/71/problem/A
+// difficulty : 800
+
+// idea : find the word length + if length > 10 print first letter of word + reduce word length by 2 + print the last letter of word
+// Time Compelexity : O(n x L)  , Space Complexity :O(L) -> for current word
 
 import java.util.Scanner;
 
