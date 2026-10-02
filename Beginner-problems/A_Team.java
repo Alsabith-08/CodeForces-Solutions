@@ -1,8 +1,8 @@
 package CodeForces;
 
-
 // Problem : 231A
 // https://codeforces.com/problemset/problem/231/A
+// Difficulty : 800
 
 // IDEA : For each problem, check whether at least 2 of the 3 friends think they can solve it.
 // Time Complexity : O(n)
