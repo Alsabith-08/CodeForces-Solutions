@@ -1,6 +1,6 @@
 package CodeForces;
 
-// Problem : 231A
+// Problem : 231A - Team
 // https://codeforces.com/problemset/problem/231/A
 // Difficulty : 800
 
