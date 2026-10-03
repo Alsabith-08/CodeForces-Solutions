@@ -1,8 +1,9 @@
 package CodeForces;
 
+// Problem : 158A
 // https://codeforces.com/contest/158/problem/A
 
-// IDEA : compare the k value for others if greater than or equal increase the answer count
+// IDEA : compare the k value for others if greater than or equal, increase the answer count
 // Time Complexity : O(n)   , Space Complexity : O(n)
 
 
