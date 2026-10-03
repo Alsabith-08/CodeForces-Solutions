@@ -1,6 +1,6 @@
 package CodeForces;
 
-// Problem : 158A
+// Problem : 158A - NextRound
 // https://codeforces.com/contest/158/problem/A
 
 // IDEA : compare the k value for others if greater than or equal, increase the answer count
