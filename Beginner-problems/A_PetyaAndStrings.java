@@ -7,26 +7,28 @@ package CodeForces;
 //        less than 0 - return -1 ,
 //        otherWise - return 0
 
-// Time Complexity : O(n)   , Space Complexity : O(n)
+// Time Complexity : O(n)   
+// Space Complexity : O(n)
+
 import java.util.Scanner;
 
 public class A_PetyaAndStrings {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+                                                    // INPUT : 
+        String s1 = sc.next();                      // s1 = aaaA
+        String s2 = sc.next();                      // s2 = AaaA
 
-        String s1 = sc.next();
-        String s2 = sc.next();
-
-        s1 = s1.toLowerCase();
-        s2 = s2.toLowerCase();
-
-        int result = s1.compareTo(s2);
-
+        s1 = s1.toLowerCase();                      // s1 = aaaa
+        s2 = s2.toLowerCase();                      // s2 = aaaa
+                                                                    //       ascii
+        int result = s1.compareTo(s2);              // for s1   (aaaa - 'a' -  97 )   - 388
+                                                    // for s2   (aaaa - 'a' -  97 )   - 388   , then 388 -388 = 0
         if(result < 0) {
-            System.out.println(-1);
-        }else if(result > 0){
+            System.out.println(-1);                //  less than 0    -> return 1
+        }else if(result > 0){                      //  greater than 0 -> return 1 
             System.out.println(1);
-        }else{
+        }else{                                     //  otherWise      -> return 0
             System.out.println(0);
         }
     }
