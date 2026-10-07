@@ -1,5 +1,10 @@
 package CodeForces;
 
+// Problem : 282A
+// https://codeforces.com/contest/282/problem/A
+// IDEA : check operation contain ++ if ++ perform on X otherWise , -- on X
+
+// Time Complexity : O(n)    , Space Complexity :O(1)
 import java.util.Scanner;
 
 public class A_Bit {
