@@ -1,5 +1,6 @@
 package CodeForces;
 
+// Problem : 110A - NearlyLuckyNumber
 // https://codeforces.com/problemset/problem/110/A
 // IDEA : check character by character if that are 4 or 7 increment count +1
 //       convert count to String , boolean variable initially true
