@@ -1,4 +1,3 @@
-package Array;
 
 // Problem  : 1538A - Stone Game
 // https://codeforces.com/problemset/problem/1538/a
